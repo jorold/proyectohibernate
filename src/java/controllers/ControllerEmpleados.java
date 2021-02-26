@@ -6,14 +6,14 @@ import repositories.RepositoryEmpleados;
 
 public class ControllerEmpleados {
 
-    RepositoryEmpleados helper;
+    RepositoryEmpleados repo;
 
     public ControllerEmpleados() {
-        this.helper = new RepositoryEmpleados();
+        this.repo = new RepositoryEmpleados();
     }
 
     public String getTablaEmpleados() {
-        List<Emp> empleados = this.helper.getEmpleados();
+        List<Emp> empleados = this.repo.getEmpleados();
         String html = "<table class='table table-bordered'>";
         html += "<thead>";
         html += "<tr><th>Empleado nro</th><th>Apellido</th>"
@@ -34,4 +34,18 @@ public class ControllerEmpleados {
         return html;
 
     }
+
+    public String getEmpleadosOficio(String oficio) {
+        List<Emp> empleados = this.repo.buscarEmpleadosOficio(oficio);
+        if (empleados == null) {
+            return "<h1 style='color:red'>No existen datos del oficio: " + oficio + "</h1>";
+        }
+        String html = "<ul>";
+        for (Emp emp : empleados) {
+            html += "<li>" + emp.getApellido() + "</li>";
+        }
+        html += "</ul>";
+        return html;
+    }
+
 }
