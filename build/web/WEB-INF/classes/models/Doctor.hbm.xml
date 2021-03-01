@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 28-feb-2021 11:41:09 by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="models.Doctor" table="DOCTOR" schema="SYSTEM">
+        <id name="doctorNo" type="int">
+            <column name="DOCTOR_NO" precision="9" scale="0" />
+            <generator class="assigned"></generator>
+        </id>
+        <property name="hospitalCod" type="java.lang.Integer">
+            <column name="HOSPITAL_COD" precision="9" scale="0" />
+        </property>
+        <property name="apellido" type="string">
+            <column name="APELLIDO" length="50" />
+        </property>
+        <property name="especialidad" type="string">
+            <column name="ESPECIALIDAD" length="50" />
+        </property>
+        <property name="salario" type="java.lang.Integer">
+            <column name="SALARIO" precision="9" scale="0" />
+        </property>
+    </class>
+</hibernate-mapping>

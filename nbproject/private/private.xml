@@ -3,10 +3,9 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/jorol/OneDrive/Curso%20Programación/NetBeansProjects/ProyectoHibernate/src/java/models/Plantilla.java</file>
-            <file>file:/C:/Users/jorol/OneDrive/Curso%20Programación/NetBeansProjects/ProyectoHibernate/web/plantilla.jsp</file>
-            <file>file:/C:/Users/jorol/OneDrive/Curso%20Programación/NetBeansProjects/ProyectoHibernate/src/java/repositories/RepositoryGeneral.java</file>
-            <file>file:/C:/Users/jorol/OneDrive/Curso%20Programación/NetBeansProjects/ProyectoHibernate/src/java/controllers/ControllerGeneral.java</file>
+            <file>file:/C:/Users/jorol/OneDrive/Curso%20Programación/NetBeansProjects/ProyectoHibernate/src/java/repositories/RepositoryDoctor.java</file>
+            <file>file:/C:/Users/jorol/OneDrive/Curso%20Programación/NetBeansProjects/ProyectoHibernate/src/java/controllers/Controller06AccionDoctores.java</file>
+            <file>file:/C:/Users/jorol/OneDrive/Curso%20Programación/NetBeansProjects/ProyectoHibernate/web/web06aciondoctores.jsp</file>
         </group>
     </open-files>
 </project-private>

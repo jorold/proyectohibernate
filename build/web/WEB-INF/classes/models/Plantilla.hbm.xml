@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 28-feb-2021 11:41:09 by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="models.Plantilla" table="PLANTILLA" schema="SYSTEM" optimistic-lock="version">
+        <id name="empleadoNo" type="int">
+            <column name="EMPLEADO_NO" precision="9" scale="0" />
+            <generator class="assigned" />
+        </id>
+        <property name="hospitalCod" type="java.lang.Integer">
+            <column name="HOSPITAL_COD" precision="9" scale="0" />
+        </property>
+        <property name="salaCod" type="java.lang.Integer">
+            <column name="SALA_COD" precision="9" scale="0" />
+        </property>
+        <property name="apellido" type="string">
+            <column name="APELLIDO" length="50" />
+        </property>
+        <property name="funcion" type="string">
+            <column name="FUNCION" length="50" />
+        </property>
+        <property name="turno" type="string">
+            <column name="TURNO" length="1" />
+        </property>
+        <property name="salario" type="java.lang.Integer">
+            <column name="SALARIO" precision="9" scale="0" />
+        </property>
+    </class>
+</hibernate-mapping>

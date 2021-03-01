@@ -11,8 +11,7 @@ public class RepositoryDoctores {
     Session session;
 
     public RepositoryDoctores() {
-        this.session
-                = HibernateUtil.getSessionFactory().getCurrentSession();
+        this.session = HibernateUtil.getSessionFactory().getCurrentSession();
     }
 
     public List<Doctor> getDoctoresHospital(int id) {
@@ -25,4 +24,5 @@ public class RepositoryDoctores {
             return query.list();
         }
     }
+
 }
