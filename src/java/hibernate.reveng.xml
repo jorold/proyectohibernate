@@ -7,4 +7,5 @@
   <table-filter match-name="DEPT"/>
   <table-filter match-name="DOCTOR"/>
   <table-filter match-name="HOSPITAL"/>
+  <table-filter match-name="PLANTILLA"/>
 </hibernate-reverse-engineering>
