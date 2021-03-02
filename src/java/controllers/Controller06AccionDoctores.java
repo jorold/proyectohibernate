@@ -19,14 +19,14 @@ public class Controller06AccionDoctores {
         for (Doctor doc : doctores) {
             html += "<tr>";
             html += "<td>" + doc.getDoctorNo() + "</td>";
-            //html += "<td>";
-            //html += "<button type='button' value='" + doc.getDoctorNo() + "'>Eliminar</button>";
-            //html += "<a href='web06acciondoctores.jsp?eliminar=" + doc.getDoctorNo() + "'>Eliminar</a>";
-            //html += "</td>";
             html += "<td>" + doc.getApellido() + "</td>";
             html += "<td>" + doc.getEspecialidad() + "</td>";
             html += "<td>" + doc.getHospitalCod() + "</td>";
             html += "<td>" + doc.getSalario() + "</td>";
+            //html += "<td>";
+            //html += "<button type='button' value='" + doc.getDoctorNo() + "'>Eliminar</button>";
+            //html += "<a href='web06acciondoctores.jsp?eliminar=" + doc.getDoctorNo() + "'>Eliminar</a>";
+            //html += "</td>";
             html += "</tr>";
         }
         return html;
