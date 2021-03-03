@@ -1,5 +1,5 @@
 package models;
-// Generated 02-mar-2021 16:36:44 by Hibernate Tools 4.3.1
+// Generated 02-mar-2021 18:46:12 by Hibernate Tools 4.3.1
 
 
 import java.math.BigDecimal;
@@ -82,33 +82,6 @@ public class VistaempleadosId  implements java.io.Serializable {
     }
 
 
-   public boolean equals(Object other) {
-         if ( (this == other ) ) return true;
-		 if ( (other == null ) ) return false;
-		 if ( !(other instanceof VistaempleadosId) ) return false;
-		 VistaempleadosId castOther = ( VistaempleadosId ) other; 
-         
-		 return ( (this.getApellido()==castOther.getApellido()) || ( this.getApellido()!=null && castOther.getApellido()!=null && this.getApellido().equals(castOther.getApellido()) ) )
- && ( (this.getSalario()==castOther.getSalario()) || ( this.getSalario()!=null && castOther.getSalario()!=null && this.getSalario().equals(castOther.getSalario()) ) )
- && ( (this.getAnual()==castOther.getAnual()) || ( this.getAnual()!=null && castOther.getAnual()!=null && this.getAnual().equals(castOther.getAnual()) ) )
- && ( (this.getOficio()==castOther.getOficio()) || ( this.getOficio()!=null && castOther.getOficio()!=null && this.getOficio().equals(castOther.getOficio()) ) )
- && ( (this.getFechaalta()==castOther.getFechaalta()) || ( this.getFechaalta()!=null && castOther.getFechaalta()!=null && this.getFechaalta().equals(castOther.getFechaalta()) ) )
- && ( (this.getDepartamento()==castOther.getDepartamento()) || ( this.getDepartamento()!=null && castOther.getDepartamento()!=null && this.getDepartamento().equals(castOther.getDepartamento()) ) )
- && ( (this.getLocalidad()==castOther.getLocalidad()) || ( this.getLocalidad()!=null && castOther.getLocalidad()!=null && this.getLocalidad().equals(castOther.getLocalidad()) ) );
-   }
-   
-   public int hashCode() {
-         int result = 17;
-         
-         result = 37 * result + ( getApellido() == null ? 0 : this.getApellido().hashCode() );
-         result = 37 * result + ( getSalario() == null ? 0 : this.getSalario().hashCode() );
-         result = 37 * result + ( getAnual() == null ? 0 : this.getAnual().hashCode() );
-         result = 37 * result + ( getOficio() == null ? 0 : this.getOficio().hashCode() );
-         result = 37 * result + ( getFechaalta() == null ? 0 : this.getFechaalta().hashCode() );
-         result = 37 * result + ( getDepartamento() == null ? 0 : this.getDepartamento().hashCode() );
-         result = 37 * result + ( getLocalidad() == null ? 0 : this.getLocalidad().hashCode() );
-         return result;
-   }   
 
 
 }
