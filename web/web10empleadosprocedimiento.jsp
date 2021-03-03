@@ -21,7 +21,7 @@
         <form method="post" class="form-group">
             <label>Id Departamento: </label>
             <input type="text" name="iddepartamento" required/>
-            <label>Nueva especialidad: </label>
+            <label>Incremento salario: </label>
             <input type="text" name="salario" required/>
             <button class="btn btn-outline-info" type="submit">Modificar salario</button>
         </form>

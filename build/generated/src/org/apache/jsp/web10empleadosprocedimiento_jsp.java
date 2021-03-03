@@ -74,7 +74,7 @@ public final class web10empleadosprocedimiento_jsp extends org.apache.jasper.run
       out.write("        <form method=\"post\" class=\"form-group\">\n");
       out.write("            <label>Id Departamento: </label>\n");
       out.write("            <input type=\"text\" name=\"iddepartamento\" required/>\n");
-      out.write("            <label>Nueva especialidad: </label>\n");
+      out.write("            <label>Incremento salario: </label>\n");
       out.write("            <input type=\"text\" name=\"salario\" required/>\n");
       out.write("            <button class=\"btn btn-outline-info\" type=\"submit\">Modificar salario</button>\n");
       out.write("        </form>\n");
