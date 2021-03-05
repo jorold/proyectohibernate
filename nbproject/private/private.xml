@@ -2,6 +2,11 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group/>
+        <group>
+            <file>file:/C:/Users/jorol/OneDrive/Curso%20Programación/NetBeansProjects/ProyectoHibernate/src/java/models/EmpleadosOficio.java</file>
+            <file>file:/C:/Users/jorol/OneDrive/Curso%20Programación/NetBeansProjects/ProyectoHibernate/web/web12empleadosoficio.jsp</file>
+            <file>file:/C:/Users/jorol/OneDrive/Curso%20Programación/NetBeansProjects/ProyectoHibernate/src/java/controllers/Controller12EmpleadosOficio.java</file>
+            <file>file:/C:/Users/jorol/OneDrive/Curso%20Programación/NetBeansProjects/ProyectoHibernate/src/java/repositories/RepositoryEmpleadosOficio.java</file>
+        </group>
     </open-files>
 </project-private>
